@@ -23,4 +23,8 @@ public class HelloController {
     public String longHello2(){
         return "Hello from Springboot!" + "B".repeat(100);
     }
+
+    public String longHello23(){
+        return "Hello from Springboot!" + "B".repeat(100);
+    }
 }
