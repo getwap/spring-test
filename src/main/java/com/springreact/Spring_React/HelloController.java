@@ -31,5 +31,10 @@ public class HelloController {
         return "Hello from Spring Boot! " + "A".repeat(1000); // Long string
     }
 
+    @GetMapping("/api/longhello")
+    public String longHello23() {
+        return "Hello from Spring Boot! " + "A".repeat(1000); // Long string
+    }
+
 
 }
